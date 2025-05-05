@@ -17,5 +17,6 @@ chmod +x install_packages.sh
 ./install.packages.sh
 
 cd src
+sudo rm -rf results
 mkdir results
 python3 main.py

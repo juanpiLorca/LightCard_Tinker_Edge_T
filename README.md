@@ -13,8 +13,9 @@ Ensure your Mendel OS device has internet access. Then, follow these steps to in
 Execute the setup script to install Python 3 and the required packages:
 
 ```bash
-chmod +x install.packages.sh
+chmod +x install_packages.sh
 ./install.packages.sh
 
 cd src
+mkdir results
 python3 main.py
